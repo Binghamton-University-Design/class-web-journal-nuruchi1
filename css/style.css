@@ -28,7 +28,7 @@ body {
 
 .wrapper {
     position: relative;
-    max-width: 1280px;
+    max-width: 1280px; /* standard good rule of thumb to keep it at 1280 pixels*/ 
     margin: 0 auto;
 }
 

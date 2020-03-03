@@ -2,7 +2,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr); /* for this gird we want 12 collums and each collums is 1 fraction of the space*/
   position: relative;
   /*grid-gap: 1em;*/
 }
