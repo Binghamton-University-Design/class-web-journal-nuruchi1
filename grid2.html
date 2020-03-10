@@ -7,45 +7,10 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/grid-utils.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/book.css">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap" rel="stylesheet">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script src="js/main.js"></script>
-
-		<style>
-
-			body{
-				font-family: 'Noto Serif', serif;
-			}
-			.grid {
-				grid-gap: 1em;
-				margin: 0 0 2em 0;
-
-			}
-			.grid div {
-				background-color:rgba(0,0,0,0.1);
-			}
-
-			.nice-image{
-				width: 100%;
-				height: auto;
-				display: block;
-			}
-
-			.book{
-				margin-top: 2em;
-			}
-
-			.book h2{
-				font-weight: 700;
-				font-size: 2em; 
-			}
-
-			.book-nav{
-				text-align: center;
-
-			}
-
-		</style>
 
 	</head>
 
@@ -65,7 +30,8 @@
 
 			<div class="width-2-12-m width-2-12">
 				<div class ="flex-content">
-					<div class = "book-nav vertically-centered">Previous
+					<div class = "book-nav vertically-centered">
+						<img class="nice-image" src = "images/left.png" title = "left button">
 					</div>
 			</div>		
 			</div>
@@ -76,18 +42,20 @@
 
 			<div class="width-2-12-m width-2-12">
 				<div class = "flex-content">
-					<div class = "book-nav vertically-centered"> Next </div> 
+					<div class = "book-nav vertically-centered"> 
+						<img class="nice-image" src = "images/right.png" title = "right button">
+					</div> 
 				</div>
 			</div>		
 
 			<div class="width-12-12-m width-12-12">
-					Riddle Book Credits
+					<p class = "credit"> Riddle Me This | ARTS 412 Spring 2020</p>
 				</div>	
 			</div>
 		</div>
 
 		<div id="footer">
-			<p>©2020 Firstname Lastname | Binghamton University</p>
+			<p>©2020 Nathaly Uruchima | Binghamton University</p>
 		</div>
 
 	</body>
