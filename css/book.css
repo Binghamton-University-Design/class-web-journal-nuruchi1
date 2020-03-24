@@ -1,12 +1,19 @@
 	body{
 		font-family: 'Noto Serif', serif;
 		}
+
+	.wrapper {
+    max-width: 600px; /* standard good rule of thumb to keep it at 1280 pixels*/ 
+	}
+
 	.grid {
+		background-color: #000;
+		color: #fff;
 		grid-gap: 1em;
 		margin: 0 0 2em 0;
 		}
 		.grid div {
-			background-color:rgba();
+			/*background-color:rgba();  */
 		}
 
 		.nice-image{
@@ -40,4 +47,10 @@
 
 		.credit{
 			margin-left: 1em;
+		}
+
+		.book .width-12-12
+		{
+			background-color: #000;
+			color: #d6d6d6;
 		}
